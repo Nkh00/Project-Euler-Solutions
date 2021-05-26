@@ -16,5 +16,4 @@ if __name__ == '__main__':
     for possible_factor in range(4, 600851475143):
         if is_prime(possible_factor, 10):
             if 600851475143 % possible_factor == 0:
-                factor_list.append(possible_factor)
                 print(possible_factor)
