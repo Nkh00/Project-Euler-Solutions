@@ -1,6 +1,6 @@
 from largest_prime_factor import is_prime
 
-primes_generated = 1
+primes_generated = 2
 test_number = 5
 
 while primes_generated < 10001:
